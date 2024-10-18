@@ -19,7 +19,12 @@ echo "Formatted date : $(date '+%Y-%m-%d') and $(date '+%Y-%m-%d_%H_%M_%S')"
 
 timestamp=$(date '+%Y-%m-%d_%H_%M_%S')
 
+<<note1
+this will save in home directory
 backup_dir="${timestamp}_backup.zip"
+note1
+#this will save in "/home/ubuntu/backups/ directory
+backup_dir="/home/ubuntu/backups/${timestamp}_backup.zip"
 
 echo "*****Backup of $1 Started***********"
 
