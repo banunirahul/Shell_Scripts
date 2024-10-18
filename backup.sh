@@ -8,6 +8,11 @@ You can use below commands to execute this .sh file
 ./backup.sh /home/ubuntu/MyScripts
 OR
 bash backup.sh /home/ubuntu/MyScripts
+
+
+For Cron use below script 
+*/1 * * * * bash /home/ubuntu/MyScripts/backup.sh /home/ubuntu/MyScripts
+
 note
 
 
