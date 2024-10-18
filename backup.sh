@@ -3,6 +3,11 @@
 
 <<note
 This Script is used to take the backup od any destination path given in the agrgument
+
+You can use below commands toexecute this file 
+./backup.sh /home/ubuntu/MyScripts
+OR
+bash backup.sh /home/ubuntu/MyScripts
 note
 
 
